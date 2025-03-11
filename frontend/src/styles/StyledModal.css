@@ -1,0 +1,37 @@
+.principal{
+    background-color:white;
+    display:flex;
+    justify-content: center;
+    justify-items: center;
+}
+.botao{
+    margin:100px;
+    background-color:white;
+}
+
+.modal{
+    justify-content: center;
+    justify-items: center;
+    color:black;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-left: 400px;
+    width: 150px;
+    height:150px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    animation: anime 1s ease-out;
+    position: absolute;
+    z-index:0;
+}
+@keyframes anime {
+    from {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }

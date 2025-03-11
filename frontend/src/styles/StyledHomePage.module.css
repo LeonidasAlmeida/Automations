@@ -1,0 +1,28 @@
+.wrapper{
+    display:grid;
+    background-color: white;
+    grid-template-columns:repeat(7, 105px);
+    grid-template-rows:repeat(4, 110px);
+    grid-gap:0.5rem;
+    justify-content: center;
+    color:white;
+  
+}
+
+.h1{
+    grid-column:1/7;
+    grid-row:1/4;
+    background-color: rgb(243, 24, 24);
+    overflow: hidden;
+
+}
+
+button{
+    width:120px;
+    height:60px;
+    margin:5px;
+}
+
+h1{
+    font-size:100px;
+}
