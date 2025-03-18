@@ -1,9 +1,0 @@
-.h3{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    grid-column:1/6;
-    grid-row:4/5;
-    background-color: rgb(33, 52, 65);
-}
